@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我 | 王昆</title>
+    <meta name="description" content="预约王昆的深度咨询 — 香港保险规划、资产配置、修道交流">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">王昆</a>
+            <button class="nav-toggle" aria-label="导航菜单">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="services.html">港险服务</a></li>
+                <li><a href="blog.html">修道感悟</a></li>
+                <li><a href="contact.html" class="active">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 页面头部 -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">深度连接</h1>
+            <p class="page-subtitle">不做流量 IP，做扎根的 IP。在深度交流中，种下种子。</p>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section class="section contact-section">
+        <div class="container">
+            <p class="contact-intro">
+                我不追求流量，只希望与<strong>200-2000 个高净值家庭</strong>建立深度连接。<br>
+                如果你认可长期主义、利他之道，愿意深度交流，欢迎预约。
+            </p>
+
+            <div class="contact-grid">
+                <!-- 微信 -->
+                <div class="contact-card">
+                    <span class="contact-icon">💬</span>
+                    <h3>微信</h3>
+                    <p>添加微信，预约咨询时间</p>
+                    <div class="wechat-placeholder">
+                        <div class="qr-placeholder">
+                            <span>二维码</span>
+                        </div>
+                        <p class="wechat-id">微信号：请私信获取</p>
+                    </div>
+                    <p class="contact-note">添加时请注明「网站预约」</p>
+                </div>
+
+                <!-- 飞书 -->
+                <div class="contact-card">
+                    <span class="contact-icon">📝</span>
+                    <h3>飞书</h3>
+                    <p>直接发送飞书消息，我会尽快回复</p>
+                    <a href="https://app.feishu.cn" target="_blank" class="btn btn-outline">
+                        打开飞书 →
+                    </a>
+                    <p class="contact-note">适合快速沟通</p>
+                </div>
+
+                <!-- 线下 -->
+                <div class="contact-card">
+                    <span class="contact-icon">☕</span>
+                    <h3>线下见面</h3>
+                    <p>深圳可约面对面深度沟通</p>
+                    <ul class="meeting-info">
+                        <li>📍 地点：深圳南山区（具体协商）</li>
+                        <li>⏱ 时长：60-90 分钟</li>
+                        <li>🍵 形式：喝茶聊天，不推销</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 预约表单 -->
+    <section class="section form-section">
+        <div class="container">
+            <h2 class="section-title">预约深度咨询</h2>
+            <p class="section-desc">填写以下信息，我会在 24 小时内回复</p>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">姓名</label>
+                    <input type="text" id="name" name="name" required placeholder="如何称呼您">
+                </div>
+
+                <div class="form-group">
+                    <label for="contact">联系方式</label>
+                    <input type="text" id="contact" name="contact" required placeholder="微信/电话/邮箱">
+                </div>
+
+                <div class="form-group">
+                    <label for="topic">咨询主题</label>
+                    <select id="topic" name="topic" required>
+                        <option value="">请选择</option>
+                        <option value="insurance">香港保险规划</option>
+                        <option value="asset">资产配置</option>
+                        <option value="trust">家族信托</option>
+                        <option value="career">职业发展交流</option>
+                        <option value="spiritual">修道/心性成长</option>
+                        <option value="other">其他</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">具体需求</label>
+                    <textarea id="message" name="message" rows="5" required 
+                        placeholder="请简单描述您的需求或想交流的内容..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="city">所在城市</label>
+                    <input type="text" id="city" name="city" placeholder="例如：深圳、北京、新加坡">
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-large">
+                    提交预约
+                </button>
+            </form>
+
+            <div class="form-notice">
+                <p>🔒 你的信息会被严格保密，仅用于预约沟通。</p>
+                <p>🙏 我追求深度而非数量，每次咨询前会认真准备。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 常问问题 -->
+    <section class="section faq-section">
+        <div class="container">
+            <h2 class="section-title">常见问答</h2>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 class="faq-question">咨询收费吗？</h3>
+                    <div class="faq-answer">
+                        <p>首次 60 分钟深度沟通<strong>免费</strong>。如果后续需要复杂方案设计，会提前告知是否收费。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">一定要买保险吗？</h3>
+                    <div class="faq-answer">
+                        <p>不一定。我会根据你的实际情况给出建议，可能是保险，也可能是其他工具。<strong>适合比产品更重要</strong>。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">人在内地可以买香港保险吗？</h3>
+                    <div class="faq-answer">
+                        <p>可以，但需要<strong>本人亲自到香港</strong>完成签约和体检（如需要）。我会协助预约和流程指导。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">你只做港险吗？</h3>
+                    <div class="faq-answer">
+                        <p>主要精力在港险，但也欢迎交流修道、创业、投资等话题。<strong>先做人，后做事</strong>。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 王昆 | 精力度过一生</p>
+            <p class="footer-quote">「把文明带到世界每一个角落」</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+    // 表单提交处理
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const formData = {
+            name: document.getElementById('name').value,
+            contact: document.getElementById('contact').value,
+            topic: document.getElementById('topic').value,
+            message: document.getElementById('message').value,
+            city: document.getElementById('city').value
+        };
+
+        // 实际部署时需要后端处理
+        // 这里仅做演示
+        alert('✅ 预约已提交！我会在 24 小时内通过你留下的联系方式回复你。');
+        this.reset();
+    });
+    </script>
+</body>
+</html>
