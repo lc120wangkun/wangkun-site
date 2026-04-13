@@ -4,140 +4,284 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>港险服务 | 王昆</title>
-    <meta name="description" content="香港保险服务 - 资产配置、风险保障、家族信托">
+    <meta name="description" content="香港保险规划服务 — 资产配置、风险保障、家族信托。60 分钟深度沟通，不推销，只给专业建议。">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- 导航栏 -->
     <nav class="navbar">
         <div class="container nav-container">
             <a href="index.html" class="logo">王昆</a>
             <button class="nav-toggle" aria-label="导航菜单">☰</button>
             <ul class="nav-menu">
                 <li><a href="index.html">首页</a></li>
-                <li><a href="services.html">港险服务</a></li>
+                <li><a href="services.html" class="active">港险服务</a></li>
                 <li><a href="blog.html">修道感悟</a></li>
                 <li><a href="contact.html">联系</a></li>
             </ul>
         </div>
     </nav>
 
-    <header class="page-header">
+    <!-- 页面头部 -->
+    <section class="page-header">
         <div class="container">
-            <h1>港险服务</h1>
-            <p class="page-subtitle">专业 · 真诚 · 长期主义</p>
+            <h1 class="page-title">港险服务</h1>
+            <p class="page-subtitle">帮助高净值家庭做好全球资产配置与传承规划</p>
         </div>
-    </header>
+    </section>
 
-    <section class="section">
+    <!-- 为什么选择香港保险 -->
+    <section class="section why-hk">
         <div class="container">
-            <div class="service-detail">
-                <div class="service-intro">
-                    <h2>为什么选择香港保险？</h2>
-                    <p>香港保险市场成熟、监管完善、产品多元化，是高净值人士进行全球资产配置的重要工具。</p>
-                    <p>我践行<b>「爱的四种美」</b>理念——尊重、欣赏、祝福、成长。不拉人头、不急功近利，而是与有缘人深度交流，帮助大家做出最适合自己的选择。</p>
+            <h2 class="section-title">为什么选择香港保险？</h2>
+            <div class="why-grid">
+                <div class="why-item">
+                    <span class="why-icon">🏛️</span>
+                    <h3>市场成熟</h3>
+                    <p>香港保险市场百年历史，监管完善，法治健全</p>
                 </div>
-            </div>
-
-            <div class="services-list">
-                <div class="service-item">
-                    <span class="service-number">01</span>
-                    <div class="service-content">
-                        <h3>储蓄分红险</h3>
-                        <p>长期复利增值，美元资产配置，适合教育金、养老金规划。</p>
-                        <ul>
-                            <li>预期年化收益：5.5%-7%</li>
-                            <li>货币选择：美元/港币/人民币</li>
-                            <li>灵活提取，财富传承</li>
-                        </ul>
-                    </div>
+                <div class="why-item">
+                    <span class="why-icon">📈</span>
+                    <h3>收益稳健</h3>
+                    <p>美元计价，全球配置，长期复利 5-7%</p>
                 </div>
-
-                <div class="service-item">
-                    <span class="service-number">02</span>
-                    <div class="service-content">
-                        <h3>重疾险</h3>
-                        <p>覆盖全球主要疾病，保额高、保费低，多次赔付。</p>
-                        <ul>
-                            <li>保障疾病：100+ 种</li>
-                            <li>赔付次数：最高 6 次</li>
-                            <li>豁免条款，人性化设计</li>
-                        </ul>
-                    </div>
+                <div class="why-item">
+                    <span class="why-icon">🛡️</span>
+                    <h3>监管严格</b>
+                    <p>香港保监局监管，保单独立账户，安全隔离</p>
                 </div>
-
-                <div class="service-item">
-                    <span class="service-number">03</span>
-                    <div class="service-content">
-                        <h3>终身寿险</h3>
-                        <p>财富传承工具，杠杆高，隐私保护好。</p>
-                        <ul>
-                            <li>保额杠杆：最高 10 倍+</li>
-                            <li>隐私保护：无需公证</li>
-                            <li>可搭配信托架构</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="service-item">
-                    <span class="service-number">04</span>
-                    <div class="service-content">
-                        <h3>家族信托</h3>
-                        <p>财富有序传承，避免家族纷争，税务规划。</p>
-                        <ul>
-                            <li>起点灵活：100 万美元起</li>
-                            <li>架构设计：个性化定制</li>
-                            <li>专业团队：律师 + 税务师</li>
-                        </ul>
-                    </div>
+                <div class="why-item">
+                    <span class="why-icon">🌏</span>
+                    <h3>全球覆盖</h3>
+                    <p>重疾险全球理赔（除制裁国家），高端医疗直付</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section" style="background: var(--bg-warm);">
+    <!-- 服务流程 -->
+    <section class="section process">
         <div class="container">
             <h2 class="section-title">服务流程</h2>
-            <div class="process-steps">
-                <div class="step">
-                    <span class="step-num">1</span>
-                    <h4>初步沟通</h4>
-                    <p>了解你的需求与现状</p>
+            <p class="section-desc">简单透明，不推销，不施压</p>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <span class="step-number">01</span>
+                    <h3>深度沟通</h3>
+                    <p>60 分钟线上/线下交流<br>了解你的需求、财务状况、家庭情况</p>
                 </div>
-                <div class="step">
-                    <span class="step-num">2</span>
-                    <h4>方案定制</h4>
-                    <p>个性化保障/配置方案</p>
+                <div class="process-step">
+                    <span class="step-number">02</span>
+                    <h3>方案设计</h3>
+                    <p>根据需求定制 2-3 个方案<br>详细对比优劣，透明讲解费用</p>
                 </div>
-                <div class="step">
-                    <span class="step-num">3</span>
-                    <h4>详细讲解</h4>
-                    <p>条款解读、利益演示</p>
+                <div class="process-step">
+                    <span class="step-number">03</span>
+                    <h3>方案讲解</h3>
+                    <p>逐条解释条款，回答所有疑问<br>确保你完全理解再决定</p>
                 </div>
-                <div class="step">
-                    <span class="step-num">4</span>
-                    <h4>投保经办</h4>
-                    <p>全程协助、高效完成</p>
+                <div class="process-step">
+                    <span class="step-number">04</span>
+                    <h3>签约投保</h3>
+                    <p>协助预约香港见面<br>完成签约、体检（如需要）、缴费</p>
                 </div>
-                <div class="step">
-                    <span class="step-num">5</span>
-                    <h4>长期服务</h4>
-                    <p>保单管理、理赔协助</p>
+                <div class="process-step">
+                    <span class="step-number">05</span>
+                    <h3>持续服务</h3>
+                    <p>保单检视、信息变更<br>理赔协助、年度复盘</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section">
-        <div class="container text-center">
-            <h2 class="section-title">预约咨询</h2>
-            <p class="section-desc">每次咨询 60 分钟，深度交流，不推销、不催促。</p>
-            <a href="contact.html" class="btn btn-primary">立即预约</a>
+    <!-- 产品类型 -->
+    <section class="section products">
+        <div class="container">
+            <h2 class="section-title">产品类型</h2>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <span class="product-icon">💰</span>
+                    <h3>储蓄分红险</h3>
+                    <p class="product-desc">长期储蓄 + 分红增值，适合教育金、养老金规划</p>
+                    <ul class="product-features">
+                        <li>美元/港币/人民币计价</li>
+                        <li>预期 IRR 5-7%（长期复利）</li>
+                        <li>灵活提取，部分领取</li>
+                        <li>财富传承，资产隔离</li>
+                    </ul>
+                    <p class="product-note">适合人群：有长期储蓄需求、子女教育规划、财富传承</p>
+                </div>
+
+                <div class="product-card">
+                    <span class="product-icon">🏥</span>
+                    <h3>重疾险</h3>
+                    <p class="product-desc">覆盖 100+ 种重疾，确诊即赔，全球理赔</p>
+                    <ul class="product-features">
+                        <li>保额 50-200 万美元</li>
+                        <li>保障至 100 岁或终身</li>
+                        <li>多次赔付，不限次数</li>
+                        <li>保费豁免，人性化条款</li>
+                    </ul>
+                    <p class="product-note">适合人群：家庭支柱、高净值人士、全球旅行者</p>
+                </div>
+
+                <div class="product-card">
+                    <span class="product-icon">🏥</span>
+                    <h3>高端医疗险</h3>
+                    <p class="product-desc">全球顶尖医院直付，就医自由</p>
+                    <ul class="product-features">
+                        <li>全球医院覆盖（除制裁国家）</li>
+                        <li>私立医院、专家门诊</li>
+                        <li>直付服务，无需垫付</li>
+                        <li>体检、疫苗、齿科可选</li>
+                    </ul>
+                    <p class="product-note">适合人群：注重医疗品质、频繁出国、企业高管</p>
+                </div>
+
+                <div class="product-card">
+                    <span class="product-icon">🏛️</span>
+                    <h3>终身寿险</h3>
+                    <p class="product-desc">财富传承、税务规划、资产隔离</p>
+                    <ul class="product-features">
+                        <li>保额 100 万美元起</li>
+                        <li>现金价值稳定增长</li>
+                        <li>可搭配家族信托</li>
+                        <li>遗产税规划工具</li>
+                    </ul>
+                    <p class="product-note">适合人群：高净值人士、企业主、跨境资产配置</p>
+                </div>
+
+                <div class="product-card">
+                    <span class="product-icon">👨‍👩‍👧‍👦</span>
+                    <h3>家族信托</h3>
+                    <p class="product-desc">100 万美元起，财富有序传承</p>
+                    <ul class="product-features">
+                        <li>个性化架构设计</li>
+                        <li>避免家族纷争</li>
+                        <li>税务优化</li>
+                        <li>律师 + 税务师团队支持</li>
+                    </ul>
+                    <p class="product-note">适合人群：超高净值家庭、企业主、跨境资产</p>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- 客户案例 -->
+    <section class="section cases">
+        <div class="container">
+            <h2 class="section-title">客户案例（脱敏）</h2>
+            <p class="section-desc">真实案例，隐去个人信息</p>
+
+            <div class="cases-grid">
+                <div class="case-card">
+                    <h3>案例 1：科技公司高管家庭</h3>
+                    <div class="case-details">
+                        <p><strong>背景：</strong>35 岁，深圳科技公司高管，年薪 200 万 +，已婚有一子（3 岁）</p>
+                        <p><strong>需求：</strong>子女教育金规划 + 家庭保障</p>
+                        <p><strong>方案：</strong></p>
+                        <ul>
+                            <li>储蓄分红险：年缴 10 万美元，5 年缴，孩子 18 岁起领取大学教育金</li>
+                            <li>重疾险：夫妻各 100 万美元保额，保障至终身</li>
+                            <li>高端医疗险：全家覆盖，私立医院直付</li>
+                        </ul>
+                        <p><strong>结果：</strong>家庭保障完备，教育金专款专用，安心职场发展</p>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <h3>案例 2：企业主财富传承</h3>
+                    <div class="case-details">
+                        <p><strong>背景：</strong>50 岁，制造业企业主，资产过亿，两子一女</p>
+                        <p><strong>需求：</strong>财富传承 + 避免家族纷争 + 税务优化</p>
+                        <p><strong>方案：</strong></p>
+                        <ul>
+                            <li>家族信托：500 万美元起，三子女为受益人</li>
+                            <li>终身寿险：1000 万美元，信托为受益人</li>
+                            <li>储蓄险：每个孩子单独配置，平等分配</li>
+                        </ul>
+                        <p><strong>结果：</strong>财富有序传承，避免子女纷争，税务优化</p>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <h3>案例 3：新移民资产配置</h3>
+                    <div class="case-details">
+                        <p><strong>背景：</strong>40 岁，计划移民加拿大，国内资产需要全球配置</p>
+                        <p><strong>需求：</strong>资产隔离 + 全球保障 + 现金流规划</p>
+                        <p><strong>方案：</strong></p>
+                        <ul>
+                            <li>储蓄分红险：年缴 20 万美元，3 年缴，美元计价</li>
+                            <li>重疾险：全球覆盖，移民后继续有效</li>
+                            <li>高端医疗：全球直付，包括加拿大私立医院</li>
+                        </ul>
+                        <p><strong>结果：</strong>资产全球配置，保障无缝衔接，现金流灵活</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 常见问答 -->
+    <section class="section faq-section">
+        <div class="container">
+            <h2 class="section-title">常见问答</h2>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 class="faq-question">人在内地可以买香港保险吗？</h3>
+                    <div class="faq-answer">
+                        <p>可以，但需要<strong>本人亲自到香港</strong>完成签约。这是香港法律要求，确保你在香港境内完成投保流程。我会协助预约时间、准备材料、安排行程。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">保费如何支付？有什么限制？</h3>
+                    <div class="faq-answer">
+                        <p>可以通过银行转账、支票、信用卡等方式支付。内地人士每人每年有<strong>5 万美元外汇额度</strong>限制。大额保单需提前规划资金来源和换汇安排。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">理赔方便吗？需要什么材料？</h3>
+                    <div class="faq-answer">
+                        <p>理赔流程成熟，支持线上提交材料。重疾险确诊后提供医院诊断证明、病理报告等即可。我协助全程跟进，确保理赔顺利。高端医疗险支持直付，无需垫付。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">香港保险和内地保险有什么区别？</h3>
+                    <div class="faq-answer">
+                        <p>主要区别：①香港保险美元计价，全球配置；②重疾险保额更高（50-200 万 vs 30-50 万）；③储蓄险长期收益更高（5-7% vs 3-4%）；④高端医疗全球直付。但内地保险也有优势，如理赔更便捷、无外汇限制。建议根据需求配置组合。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">如果后续需要变更联系方式/受益人怎么办？</h3>
+                    <div class="faq-answer">
+                        <p>可以随时变更，填写申请表即可，我会协助办理。重要信息变更（如受益人）可能需要书面确认。建议每年做一次保单检视，确保信息准确。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+        <div class="container">
+            <h2>准备好开始规划了吗？</h2>
+            <p>60 分钟深度沟通，不推销，只给专业建议。</p>
+            <a href="contact.html" class="btn btn-primary btn-large">预约咨询</a>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
     <footer class="footer">
         <div class="container">
             <p>© 2026 王昆 | 精力度过一生</p>
+            <p class="footer-quote">「把文明带到世界每一个角落」</p>
         </div>
     </footer>
 
